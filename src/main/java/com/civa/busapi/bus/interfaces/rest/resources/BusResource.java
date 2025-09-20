@@ -6,5 +6,5 @@ public record BusResource(
         String licensePlate,
         String features,
         Boolean active,
-        Long busBrandId) {
+        BusBrandResource busBrand) {
 }
