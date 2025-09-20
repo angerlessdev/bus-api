@@ -1,4 +1,4 @@
-﻿package com.civa.busapi.bus.domain.services;
+package com.civa.busapi.bus.domain.services;
 
 import com.civa.busapi.bus.domain.model.aggregates.Bus;
 import com.civa.busapi.bus.domain.model.commands.CreateBusCommand;

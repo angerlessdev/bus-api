@@ -1,4 +1,4 @@
-﻿package com.civa.busapi.bus.interfaces.rest.transform;
+package com.civa.busapi.bus.interfaces.rest.transform;
 
 import com.civa.busapi.bus.domain.model.commands.CreateBusCommand;
 import com.civa.busapi.bus.interfaces.rest.resources.CreateBusResource;

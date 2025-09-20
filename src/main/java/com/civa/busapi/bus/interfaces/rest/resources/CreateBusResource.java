@@ -1,4 +1,4 @@
-﻿package com.civa.busapi.bus.interfaces.rest.resources;
+package com.civa.busapi.bus.interfaces.rest.resources;
 
 public record CreateBusResource(
         String busNumber,

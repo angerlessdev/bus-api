@@ -1,4 +1,4 @@
-﻿package com.civa.busapi.bus.domain.model.aggregates;
+package com.civa.busapi.bus.domain.model.aggregates;
 
 import com.civa.busapi.shared.domain.model.aggregates.AuditableAbstractAggregateRoot;
 import jakarta.persistence.Entity;

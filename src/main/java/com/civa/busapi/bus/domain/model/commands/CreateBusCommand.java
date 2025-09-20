@@ -1,4 +1,4 @@
-﻿package com.civa.busapi.bus.domain.model.commands;
+package com.civa.busapi.bus.domain.model.commands;
 
 public record CreateBusCommand(
         String busNumber,
