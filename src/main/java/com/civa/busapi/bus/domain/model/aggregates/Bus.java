@@ -22,8 +22,10 @@ public class Bus extends AuditableAbstractAggregateRoot<Bus> {
     @NotBlank
     @Size(max = 20)
     private String licensePlate;
+
     @Size(max = 1000)
     private String features;
+
     @NotNull
     private Boolean active = true;
 
@@ -37,7 +39,7 @@ public class Bus extends AuditableAbstractAggregateRoot<Bus> {
         this.busNumber = busNumber;
         this.licensePlate = licensePlate;
         this.features = features;
-        this.brand = Objects.requireNonNull(brand, "marca is required");
+        this.brand = Objects.requireNonNull(brand, "brand is required");
         this.active = active == null ? Boolean.TRUE : active;
     }
 }
